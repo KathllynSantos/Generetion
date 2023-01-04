@@ -13,8 +13,7 @@ public class For {
 		Scanner leia = new Scanner(System.in);
 		
 		int num,somaPar=0,somaImpar=0,x;
-		int idade,genero,categoria,qtdBack=0,qtdMFront=0,qtdHMobile40=0,qtdMFullStack30=0;
-		String op = "S";
+		
 		
 		for (x=1;x<=10;x++)
 		{
