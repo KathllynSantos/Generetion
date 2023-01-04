@@ -9,7 +9,7 @@ public class While {
 		String op = "S";
 		
 		Scanner leia = new Scanner(System.in);
-		while(op == "S");
+		while(op.equals("S"))
 		
 		{
 			
@@ -24,32 +24,31 @@ public class While {
 			
 		
 			
-			if(categoria == 1);
+			if(categoria == 1)
 			{
 				qtdBack++;
 			}
-			if(genero == 2 && categoria == 2);
+			else if(genero == 2 && categoria == 2)
 			{
 				qtdMFront++;
 			}
-			if(genero == 1 && categoria == 3 && idade>40);
+			else if(genero == 1 && categoria == 3 && idade>40)
 			{
 				qtdHMobile40++;
 			}
-			if(genero == 2 && categoria == 4 && idade<30);
+			else if(genero == 2 && categoria == 4 && idade<30)
 			{
 				qtdMFullStack30++;
 			}
 			
-			
-			System.out.println("\nDeseja cadastrar um novo colaboradore: (S-Sim e N-NÃ£o)? ");
+			System.out.println("\nDeseja cadastrar um novo colaboradore: (S-Sim e N-Não)?");
 			op=leia.nextLine();
 		}
 		
-		System.out.printf("\nTemos: ",qtdBack," pessoas desenvolvedoras Backend");
-		System.out.printf("\nTemos: ",qtdMFront," mulheres desenvolvedoras FrontEnd");
-		System.out.printf("\nTemos: ",qtdHMobile40," homens desenvolvedores Mobile maiores de 40 anos");
-		System.out.printf("\nTemos: ",qtdMFullStack30," mulheres desenvolvedoras FullStack menores de 30 anos");
+		System.out.printf("\nTemos: "+qtdBack+" pessoas desenvolvedoras Backend");
+		System.out.printf("\nTemos: "+qtdMFront+" mulheres desenvolvedoras FrontEnd");
+		System.out.printf("\nTemos: "+qtdHMobile40+" homens desenvolvedores Mobile maiores de 40 anos");
+		System.out.printf("\nTemos: "+qtdMFullStack30+" mulheres desenvolvedoras FullStack menores de 30 anos");
 		
 
 	}
