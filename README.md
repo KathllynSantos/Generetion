@@ -1,3 +1,3 @@
 # Generetion
 Exercicios Portugol
-Exercicios JAva
+Exercicios Java
