@@ -74,8 +74,3 @@ SELECT * FROM alunos WHERE nota > 7.0;
 
 UPDATE alunos 
 SET nome="Carol" WHERE id =3;
-
-
-
-
-
