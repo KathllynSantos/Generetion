@@ -1,0 +1,100 @@
+/*Estilos da Página index.html */
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+}
+#menu li {
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#menu li a {
+    text-decoration: none  ;
+    color: #d23b80;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: #f186b7;
+}
+.p-20{
+    padding: 20px;
+}
+.br-50{
+    border-radius: 50%;
+}
+.wh-banner {
+    width: 1328px;
+    height: 250px;
+}
+.img-small {
+    width: 400%;
+    height: auto;
+}
+
+.tm-social {
+    width: 30px;
+    height: 30px;
+}
+.cor-txt{
+    color:#F186B7;
+    }
+.w-75{
+    width: 75%;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.bold {
+    font-weight: bold;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+body {
+    background-color:#E5CFF2;
+}
+
+.img-bord{
+    border-width: 9px;
+    border-style: solid;
+    border-color: #D23B80;
+}
+
+/*Estilos da pagina contato.html*/
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.item {
+    flex: 0 0 33.33%;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .item {
+    flex-basis: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+    flex-basis: 100%;
+    }
+}  

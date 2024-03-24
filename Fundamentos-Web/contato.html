@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href = "assets/css/style.css">
+</head>
+<body>
+    <div class ="container">
+        <img  class = "wh-banner img-bord"  src="assets/img/Santos.png" alt="minha foto"> 
+        </div>
+    <ul class = "center" id = "menu" >
+        <li><a href="index.html">Home</a></li>
+        <li> <a href="contato.html">Contato</a>
+        </li>
+    </ul>
+    <h1 class="center bold cor-txt">Entre em contato comigo</h1>
+<div class = "container mb-50"> 
+<div>
+    <form >
+        <label class = "bold cor-txt" for="nome">Nome:</label><br> 
+        <input type="text" id="nome" onkeyup ='validaNome()'>
+        <div id ='txtNome'></div>
+        <br>
+        <br>
+        <label class = "bold cor-txt" for="email">E-mail:</label><br>
+        <input type="email" id="email">
+        <div id ='txtEmail'></div>
+        <br>
+        <br>
+        <label class = "bold cor-txt"  for="assunto">Assunto:</label><br>
+        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <br>
+        <br>
+        <button>Enviar</button>   
+    </form>
+</div>
+
+<div class="ml-50">
+    <h2 class=" cor-txt">Endereço:</h2>
+    <p class = cor-txt>
+        7007 Sea World Dr, Orlando,
+    </p>
+    <p class="cor-txt">
+        Fl 32821, Estados Unidos
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.2685678518646!2d-81.
+    46412538563217!3d28.4111519825057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e29cb16ccb1%
+    3A0x8879262d48f3bbc3!2s7007%20Sea%20World%20Dr%2C%20Orlando%2C%20FL%2032821%2C%20EUA!5e0!3m2!1spt-PT!2sbr
+    !4v1676598764659!5m2!1spt-PT!2sbr"
+    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"   referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe></div>
+
+    </div>
+    <hr>
+    <footer>
+        <div class = "container ">
+            <a href = "https://www.instagram.com/kathllynleticia/" target ="_blank">
+            <img class = "tm-social p-20" src = "assets/img/instagram.png" alt="Logo do Instagram">
+        </a>
+            <a href = "https://www.linkedin.com/in/kathllynleticiadesenvolvedora/" target ="_blank">
+            <img class = "tm-social p-20" src = "assets/img/linkedin.png" alt="Logo do Linkedin">
+        </a>
+            <a href = "https://github.com/KathllynLeticia" target ="_blank">
+            <img class = "tm-social p-20" src = "assets/img/github.png" alt="Logo do GitHub">
+        </a>
+        </div>
+        <p class = "center">
+            Todos os direitos reservados: Kathllyn Santos &copy
+        </p>
+        </footer>
+        <script src="assets/js/script.js"></script>
+</body>
+</html>
